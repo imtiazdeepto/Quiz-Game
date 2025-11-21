@@ -1,5 +1,5 @@
 // ================================================================
-// FILE 2: MCQQuestion.java
+// FILE 2 : MCQQuestion.java
 // ================================================================
 // TYPE: Concrete Class
 // PURPOSE: Multiple Choice Questions with 4 options
@@ -53,4 +53,5 @@ public class MCQQuestion implements Question {
     public String getCorrectAnswer() {
         return correctAnswer;
     }
+
 }
