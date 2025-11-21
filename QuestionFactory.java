@@ -1,7 +1,7 @@
 // ================================================================
 // FILE 4: QuestionFactory.java (FACTORY DESIGN PATTERN)
 // ================================================================
-// TYPE: Factory Class
+// TYPE: Factory Class 
 // PURPOSE: Creates all question objects in ONE place
 // PATTERN: FACTORY - hides object creation using 'new' keyword
 // WHY FACTORY: 
@@ -32,3 +32,4 @@ public class QuestionFactory {
         return new TrueFalseQuestion(questionText, correctAnswer);
     }
 }
+
