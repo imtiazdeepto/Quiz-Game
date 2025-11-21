@@ -4,7 +4,7 @@
 // ================================================================
 // TYPE: Singleton Class
 // PURPOSE: Controls the entire game - menu, quiz, scoring
-// PATTERN: SINGLETON - only ONE instance allowed in whole application
+// PATTERN: SINGLETON  - only ONE instance allowed in whole application
 // WHY SINGLETON:
 //   - Only one game controller needed
 //   - One score counter, one question list
@@ -191,3 +191,4 @@ public class GameManager {
         scanner.nextLine();
     }
 }
+
