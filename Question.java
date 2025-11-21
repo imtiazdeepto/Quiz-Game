@@ -8,7 +8,7 @@
  * FILE 5: GameManager.java       - SINGLETON PATTERN (controls game)
  * FILE 6: Main.java              - Entry point
  *
- * DESIGN PATTERNS:
+ * DESIGN PATTERNS :
  * 1. FACTORY PATTERN  - QuestionFactory creates objects
  * 2. SINGLETON PATTERN - GameManager has only one instance
  *
@@ -42,3 +42,4 @@ public interface Question {
     // Must be implemented by: MCQQuestion (FILE 2), TrueFalseQuestion (FILE 3)
     String getCorrectAnswer();
 }
+
